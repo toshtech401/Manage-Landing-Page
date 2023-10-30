@@ -1,11 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-import Dictionary from './Components/Dictionary';
+import Landing from '../src/Components/Landing/Landing'
+
 
 function App() {
   return (
-    <div className="App">
-      <Dictionary/>
+    <div className='App'>
+      <Landing />
     </div>
   );
 }
